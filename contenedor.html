@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contenido</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<header>
+		<h1>TABLAS!!!</h1>
+	</header>
+
+
+	<table border="1">
+
+		<thead>
+			<th>Titulo1</th>
+			<th>Titulo2</th>
+			<th>Titulo3</th>
+		</thead>
+
+
+		<tr>
+			<td>Titulo1</td>
+			<td>Titulo2</td>
+			<td>Titulo3</td>
+			
+		</tr>
+
+		<tr>
+
+			<td>Titulo1</td>
+			<td>Titulo2</td>
+			<td>Titulo3</td>
+			
+		</tr>
+		
+	</table>
+
+	<br>
+	<br>
+
+	<form name="cuestionario" method="post" action="index.html">
+		
+		<!--tipo alfanumerico-->	
+		<label>Nombre:</label>
+		<input type="text" name="nombre">
+		<br>
+	<br>
+
+		<!--tipo numerico-->
+		<label>Edad:</label>
+		<input type="number" name="edad" min="18" max="35">
+
+		<br>
+	<br>
+			<!--tipo contraseñas-->
+		<label>Contraseña:</label>
+		<input type="password" name="contraseña">
+		<br>
+	<br>
+		<!--tipo oculto-->
+		<label>Oculto:</label>
+		<input type="hidden" name="oculto">
+		<br>
+	<br>
+		<!--tipo radio-->
+		<p>Genero:</p>
+		<input type="radio" name="genero" value="F">
+		<label>Femenino</label><br>
+		<input type="radio" name="genero" value="M">
+		<label>Masculino</label><br>
+		<input type="radio" name="genero" value="N">
+		<label>No definido</label><br>
+
+		<br>
+	<br>
+	   <!--tipo CHECKBOX-->
+	   <label>Ciudad Natal:</label>
+	    <label>Bogota:</label>
+	   <input type="checkbox" name="casilla" value="1">
+	<br>
+	<br>
+	   <!--tipo desplegable-->
+	  <label>Sede:</label> 
+	  <select name="sede">
+	  	<option value="1">Bogota</option>
+	  	<option value="2">Mosquera</option>
+		  </select>
+	<br>
+	<br>
+	  <!--tipo correo-->
+	  <label>CorreoElectronico:</label>
+	  <input type="email" name="correo">
+	<br>
+	<br>
+	  <!--tipo fechas-->
+	<label>Fecha Nacimiento:</label>
+	<input type="date" name="fechaN">
+
+
+	  <!--tipo color-->
+	<label>Color Favorito:</label>
+	<input type="color" name="color">
+
+
+	  <!--tipo submit-->
+	 <input type="submit" name="ENVIAR">
+
+	</form>
+</body>
+</html>
